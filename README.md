@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native applications: the use of the deprecated `componentWillMount` lifecycle method.  The `bug.js` file contains code that utilizes this deprecated method, while `bugSolution.js` shows the correct approach using `componentDidMount` or static `getDerivedStateFromProps`.
